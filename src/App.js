@@ -65,6 +65,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <input
         className=""
         type="text"
@@ -72,13 +73,14 @@ function App() {
           setPokemonName(e.target.value);
         }}
       />
+      <br/>
       <button
         className=""
         onClick={searchPokemon}
       >
         Search Pokemon
       </button>
-
+     
       <div>
         {!chosen ? (
           <h1>Please choose a pokemon</h1>
@@ -102,7 +104,8 @@ function App() {
 
 <img className="card-image"src={pokemonData.image} alt={pokemonData.name} />
 
-            <h1 className="card-title" id="PokemonName">#{pokemonData.id}{pokemonData.name}</h1>
+            <h1 className="card-title" >#{pokemonData.id}</h1>
+            <h1 className="card-title" id="PokemonName">{pokemonData.name}</h1>
             <p className="card-subtitle">Type: {pokemonData.type}</p>
             <p className="card-subtitle">Height: {pokemonData.height} ft</p>            
             <p className="card-subtitle">Weight: {pokemonData.weight} lbs</p>

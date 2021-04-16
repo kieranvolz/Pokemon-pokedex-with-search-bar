@@ -1,3 +1,6 @@
+.App {
+  text-align: center;
+}
 body {
   background-color: #03A9F4;
   color: white;
@@ -19,7 +22,7 @@ justify-content:center;
 
 
 
-button {
+ button {
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
@@ -54,12 +57,12 @@ button:active {
 }
 
 
-
 h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 25px;
 }
+
 
 .card,input,button{
   margin: 15px auto auto auto;

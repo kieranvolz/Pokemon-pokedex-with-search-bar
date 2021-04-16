@@ -71,7 +71,7 @@ h1 {
 
 .card {
   list-style: none;
-  padding: 5px auto 50px auto;
+  padding: auto;
   background-color: #f4f4f4;
   color: #222;
 text-align: center;
@@ -94,6 +94,7 @@ justify-content: center;
   margin-top: 5px;
   color: #666;
   font-weight: lighter;
+  padding-bottom:5px;
 }
 
 .card-image {
